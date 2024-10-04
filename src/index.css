@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contain{
+  max-width: 1100px;
+  margin: auto;
+}
+
+.shadow-primary{
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 12px;
+}
+.bottom-hover{
+  transform: scaleX(0);
+  transform-origin: center; 
+}
+.parent-list:hover .bottom-hover{
+  transform: scaleX(1);
+}
