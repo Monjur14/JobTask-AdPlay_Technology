@@ -17,3 +17,51 @@
 .parent-list:hover .bottom-hover{
   transform: scaleX(1);
 }
+
+.productAnimate{
+  animation: animateProduct 2s infinite;
+}
+
+@keyframes animateProduct {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1);
+  }
+  40%{
+    transform: scale(1.1);
+  }
+  50%{
+    transform: rotate(10deg);
+  }
+  55%{
+    transform: rotate(-10deg);
+  }
+  60%{
+    transform: rotate(10deg);
+  }
+  65%{
+    transform: rotate(-10deg);
+  }
+  70%{
+    transform: rotate(10deg);
+  }
+  75% {
+    transform: scale(0.9);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+@media (0px < width < 500px) {
+  .contain{
+    padding: 0 1rem;
+  }
+}
+@media (501px < width < 1000px) {
+  .contain{
+    padding: 0 2rem;
+  }
+}

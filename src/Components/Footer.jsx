@@ -7,8 +7,8 @@ import FooterPopularPost from "./FooterPopularPost";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-[#222222] mt-36">
-      <div className="contain flex py-16">
+    <div className="w-full bg-[#222222] mt-24 lg:mt-36">
+      <div className="contain flex py-8 md:py-16">
         <div className="w-full h-72">
             <img src="/src/assets/Images/logo-white.png" alt="Logo" className="w-32"/>
             <p className="mt-7 text-white/70 leading-tight max-w-72">Explore the art of creativity. From brush techniques to color harmony, unlock your potential with every stroke. Stay inspired with tips, tutorials, and expert advice—craft your masterpiece with us.</p>
@@ -20,7 +20,7 @@ const Footer = () => {
                 <a href="#" className="hover:scale-95 duration-200"><span className="hover:text-green-500 duration-200 cursor-pointer"><FaYoutube /></span></a>
             </div>
         </div>
-        <div className="w-full ">
+        <div className="w-full hidden lg:block">
             <h1 className="text-2xl font-semibold text-white">Popular Post</h1>
             <div className="mt-6 flex flex-col gap-5">
             <FooterPopularPost imageSrc={"/src/assets/Images/popular-post-04.jpg"} heading={"Portrait Perfection: Tips for Painting Lifelike Faces"} category={"Music"} date={"Feb 17"}/>
@@ -28,7 +28,7 @@ const Footer = () => {
             <FooterPopularPost imageSrc={"/src/assets/Images/popular-post-06.jpg"} heading={"Color Theory 101: How to Choose the Perfect Palette"} category={"Music"} date={"Feb 15"}/>
             </div>
         </div>
-        <div className="w-full">
+        <div className="w-full hidden md:block">
             <h1 className="text-2xl font-semibold text-white">Category</h1>
             <ul className="mt-6">
                 <li className="text-white/75 font-semibold hover:text-green-500 duration-300 cursor-pointer py-2 border-b border-[#3d3d3d] pl-2">Fashion (22)</li>

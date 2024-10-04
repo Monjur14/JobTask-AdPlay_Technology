@@ -3,12 +3,13 @@ import { FaTwitter } from "react-icons/fa";
 import { GrGooglePlus } from "react-icons/gr";
 import { FaPinterestP } from "react-icons/fa";
 import Comment from "./Comment";
+import Ads from "./Ads";
 
 const Article = () => {
   return (
     <div>
       <article>
-        <h1 className="text-[2.2rem] leading-[2.9rem] font-semibold pr-10">
+        <h1 className=" text-[1.7rem] md:text-[2.2rem] leading-[2rem] mt-3 md:mt-0 md:leading-[2.9rem] font-semibold md:pr-10">
           Transform Your Space: Elevate Your Home Decor with the Perfect Paint
           Choices
         </h1>
@@ -68,6 +69,8 @@ const Article = () => {
             and layering, can enhance the depth and richness of your work.
           </p>
 
+          <Ads/>
+
           <p className="mt-5">
             Painting is one of the oldest and most profound forms of human
             expression, allowing us to communicate emotions, stories, and ideas
@@ -103,7 +106,7 @@ const Article = () => {
       </div>
       <div className="mt-2 pb-5 flex items-center gap-2">
         <h3 className="text-lg font-semibold">Share:</h3>
-        <div className="flex gap-1">
+        <div className="flex gap-1 flex-wrap">
           <a
             href="#"
             className="bg-blue-900 text-white py-1 px-5 rounded flex items-center gap-2 hover:bg-green-500 duration-200 cursor-pointer"

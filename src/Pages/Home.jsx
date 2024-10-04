@@ -12,10 +12,10 @@ const Home = () => {
     <div>
       <Navbar />
       <div className="contain flex pt-8 gap-7">
-        <main className="w-full basis-8/12">
+        <main className="w-full basis-12/12 lg:basis-8/12">
           <Article />
         </main>
-        <aside className="w-full basis-4/12 px-5">
+        <aside className="w-full basis-4/12 px-5 hidden lg:block">
           <Category/>
           <Archive/>
           <PopoularPosts/>
