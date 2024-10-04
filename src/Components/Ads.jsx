@@ -6,7 +6,7 @@ const Ads = () => {
   return (
     <div className="w-full my-10 relative pb-4 overflow-hidden" onClick={() => setIsopen(!isOpen)}>
       <img src="/ap-logo.png" alt="" className="w-16 mx-auto"/>
-      <div className="w-full h-56 rounded overflow-hidden bg-red-500 bg-[url('/src/assets/Images/ap-banner.png')] bg-no-repeat bg-cover flex flex-col items-center justify-center text-white leading-tight relative">
+      <div className="w-full h-56 rounded overflow-hidden bg-red-500 bg-[url('/ap-banner.png')] bg-no-repeat bg-cover flex flex-col items-center justify-center text-white leading-tight relative">
           <h3 className="text-sm md:text-base z-10">LAMINATION WALA EXTERIOR PAINT</h3>
           <h1 className="text-[2.3rem] md:text-[3.5rem] z-10">Apex Ultima Protek</h1>
           <div className="w-full h-full absolute  bg-black/30 top-0 left-0">
@@ -30,11 +30,11 @@ const Ads = () => {
         <div className="flex justify-end absolute right-2 top-2 z-50">
           <span className="text-[2rem] rounded-full inline-block text-white cursor-pointer"><IoCloseCircleOutline /></span>
         </div>
-        <div className="w-[50%] h-full bg-yellow-500 absolute left-0 top-0 bg-[url('/src/assets/Images/rainyday.jpg')] bg-no-repeat bg-cover flex flex-col justify-center items-end p-2">
+        <div className="w-[50%] h-full bg-yellow-500 absolute left-0 top-0 bg-[url('/rainyday.jpg')] bg-no-repeat bg-cover flex flex-col justify-center items-end p-2">
           <h1 className="text-[1.5rem] md:text-[2.5rem] font-bold text-white">HOW'S THE</h1>
           <span className="inline-block px-6 py-2 text-lg md:text-2xl bg-transparent text-white backdrop-blur-md rounded-md overflow-hidden">RAINY</span>
         </div>
-        <div className="w-[50%] h-full bg-orange-500 absolute right-0 top-0 bg-[url('/src/assets/Images/sunnyday.jpg')] bg-no-repeat bg-cover flex flex-col justify-center items-start p-2">
+        <div className="w-[50%] h-full bg-orange-500 absolute right-0 top-0 bg-[url('/sunnyday.jpg')] bg-no-repeat bg-cover flex flex-col justify-center items-start p-2">
           <h1 className="text-[1.5rem] md:text-[2.5rem] font-bold text-white">WEATHER</h1>
           <span className="inline-block px-6 py-2 text-lg md:text-2xl bg-transparent text-white backdrop-blur-md rounded-md overflow-hidden">SUNNY</span>
         </div>
