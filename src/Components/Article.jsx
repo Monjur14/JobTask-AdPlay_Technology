@@ -14,7 +14,7 @@ const Article = () => {
           Choices
         </h1>
         <img
-          src="/src/assets/Images/article-hero.jpg"
+          src="/article-hero.jpg"
           alt=""
           className="my-5 rounded-md"
         />
