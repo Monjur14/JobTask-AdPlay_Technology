@@ -53,7 +53,7 @@ const Navbar = () => {
               <ul className="flex">
                 <li className="flex items-center justify-center pr-4">
                   <img
-                    src="/src/assets/Images/logo-green.png"
+                    src="/logo-green.png"
                     alt=""
                     className="w-24"
                   />
@@ -123,7 +123,7 @@ const Navbar = () => {
 
 
       <div className="contain py-4 flex justify-between items-center md:hidden">
-        <img src="/src/assets/Images/logo-green.png" alt="" className="w-28 py-4"/>
+        <img src="/logo-green.png" alt="" className="w-28 py-4"/>
         <span className="text-2xl cursor-pointer z-40" onClick={() => setMobileNav(!mobileNav)}>{mobileNav ? <IoMdClose /> : <RxHamburgerMenu />}</span>
         <div className={`w-full h-screen absolute top-0 bg-white ${mobileNav ? "-right-0" : "right-full"} transition-all duration-300` }>
             <div className="flex justify-center items-center h-full">
@@ -169,7 +169,7 @@ const Navbar = () => {
       <div className={`w-full bg-white z-50 transition-transform duration-300 hidden md:block`}>
         <div className="flex justify-center items-center pt-14 pb-8">
           <img
-            src="/src/assets/Images/logo-green.png"
+            src="/logo-green.png"
             alt=""
             className="w-32 cursor-pointer"
           />
